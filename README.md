@@ -1,9 +1,9 @@
 # Decentralized Identity Management System
 
-This project is a Python-based, decentralized identity management system built on blockchain technology. It allows individuals to securely store their personal information and a facial image on the blockchain, ensuring tamper-proof storage and control over their data. Authorized parties can then retrieve verifiable information about a registered user by submitting the user's facial image for comparison. This system aims to empower users through decentralized data storage, user control, and secure facial recognition, but it's crucial to prioritize security, address ethical considerations, and continuously improve upon the system
-
 ## Background
 I worked on this project as part of my Blockchain and Cryptocurrency course. The primary goal was to complete the project, rather than creating a professional or final product.
+
+This project presents a client-server based, Python-implemented identity management system leveraging blockchain technology. Through a client application, individuals can register their personal information and a photograph on the blockchain, ensuring secure and tamper-proof data storage. Authorized users can retrieve verifiable information about a registered individual by submitting their photograph through the client, which sends the request to the server. The server then employs secure photo recognition to verify the user's identity before granting access to authorized information. This system empowers users with data control while utilizing blockchain for decentralized storage and enhanced security. Importantly, opting for a photo-based approach instead of facial recognition addresses ethical concerns surrounding potential misuse and bias in facial recognition technology. Continuous security improvement remains crucial for responsible development
 
 ## Prerequisites
 
