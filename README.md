@@ -33,7 +33,7 @@ Choose the option that best fits your preferences or requirements. If you have q
 ### 2.1: Create ID Chain
 
 ```bash
-multichain-util create IDChain
+multichain-util create IDChain '''
 
 
 2.2: Run ID chain
