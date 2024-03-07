@@ -19,7 +19,7 @@ I worked on this project as part of my Blockchain and Cryptocurrency course. The
 Choose the option that best suits your preferences or requirements. If you have any questions about specific steps, feel free to ask!
 
 #### Linux:
-'''bash
+```bash
 su
 cd /tmp
 wget https://www.multichain.com/download/multichain-2.3.3.tar.gz
@@ -27,23 +27,26 @@ tar -xvzf multichain-2.3.3.tar.gz
 cd multichain-2.3.3
 mv multichaind multichain-cli multichain-util /usr/local/bin # To make them easily accessible on the command line
 exit # Return to your regular user
-'''
+```
 
 
 ## 2: Launching the MultiChain Blockchain
 
 ### 2.1: Create ID Chain
-
+```bash
   multichain-util create IDChain
+```
 
 ## 2.2: Run ID Chain
-
+```bash
   multichain IDChain -daemon
+```
 
 ## 2.3 create stream
-
+```bash
   multichain-cli IDChain create stream identity_stream true
   multichain-cli IDChain subscribe identity_stream
+```
 
 ## 2.4: Replace IP Adresses in your client script with appropriate Server IP Address
 
