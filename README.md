@@ -19,7 +19,7 @@ I worked on this project as part of my Blockchain and Cryptocurrency course. The
 Choose the option that best suits your preferences or requirements. If you have any questions about specific steps, feel free to ask!
 
 #### Linux:
-bash'''
+'''bash
 su
 cd /tmp
 wget https://www.multichain.com/download/multichain-2.3.3.tar.gz
